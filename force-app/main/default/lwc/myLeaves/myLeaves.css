@@ -1,0 +1,18 @@
+.approvedStatus {
+    background: #def1dd;
+    color: #0a6f2e;
+}
+.rejectedStatus {
+    background: #fee2e2;
+    color: #991b1b;
+}
+.pendingStatus {
+    background: #fff7c2;
+    color: #78350f;
+}
+.slds-modal__header h1 {
+    color: #16325c;
+}
+.slds-modal__content {
+    min-width: 350px;
+}

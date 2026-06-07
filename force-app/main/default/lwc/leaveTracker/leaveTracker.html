@@ -5,7 +5,7 @@
                 <c-my-leaves onrefreshleaverequests={refreshLeaveReqeuestHandler}></c-my-leaves>
             </lightning-tab>
             <lightning-tab title="Leave Requests" label="Leave Requests">
-                <c-leave-requests lwc:ref="myLeavesComp"></c-leave-requests>
+                <c-leave-requests lwc:ref="myLeavesComp" onrefreshmyleaves={refreshMyLeavesHandler}></c-leave-requests>
             </lightning-tab>
         </lightning-tabset>
     </lightning-card>
